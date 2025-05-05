@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>项目主页</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #ffffff;
+            color: #24292e;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #24292e;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        nav a {
+            color: white;
+            margin-left: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 2rem;
+            background-color: #f6f8fa;
+        }
+        .feature {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            width: 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        footer {
+            background-color: #eaeaea;
+            padding: 1rem 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #586069;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>项目名称</h1>
+        <nav>
+            <a href="#">主页</a>
+            <a href="#">文档</a>
+            <a href="#">示例</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>开源项目展示平台</h2>
+        <p>探索全球开发者的创新项目，发现技术灵感</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>代码托管</h3>
+            <p>安全的代码存储和版本管理解决方案</p>
+        </div>
+        <div class="feature">
+            <h3>协作开发</h3>
+            <p>实时协作工具和项目管理看板</p>
+        </div>
+        <div class="feature">
+            <h3>持续集成</h3>
+            <p>自动化构建和测试流水线</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 项目名称 · 隐私政策 · 服务条款</p>
+    </footer>
+</body>
+</html>
